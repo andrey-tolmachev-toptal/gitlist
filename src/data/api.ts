@@ -2,7 +2,7 @@ import { Octokit } from '@octokit/core';
 
 import { DropdownOption, ListItem, OrganizationsData, RepositoriesData, Repository } from './types';
 
-const TOKEN = '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';
+const TOKEN = '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';
 
 export const getOrgs = async (searchString = ''): Promise<DropdownOption[] | null> => {
     const octokit = new Octokit({ auth: TOKEN });
