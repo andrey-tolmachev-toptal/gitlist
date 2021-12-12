@@ -20,6 +20,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 Notes:
 
 As the GitHub REST API does not allow filtering repositories by name or open issues number 
-all the available repos for the selected organization are cached and filtered locally.
+all available repos for the selected organization are cached and filtered locally.
 
 GitHub allows maximum 1000 repos to be fetched for the company through the REST API.
