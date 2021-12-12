@@ -2,10 +2,8 @@ import { Octokit } from '@octokit/core';
 
 import { DropdownOption, ListItem, OrganizationsData, RepositoriesData, Repository } from './types';
 
-const TOKEN = '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';
-
 export const getOrgs = async (searchString = ''): Promise<DropdownOption[] | null> => {
-    const octokit = new Octokit({ auth: TOKEN });
+    const octokit = new Octokit({ auth: process.env.GITHUB_API_KEY });
 
     try {
         const queryString = encodeURIComponent(`${ searchString } type:org`);
@@ -57,7 +55,7 @@ const convertToListItem = (items: Repository[]) => {
 };
 
 export const getAllRepos = async (org: string): Promise<ListItem[] | null | string> => {
-    const octokit = new Octokit({ auth: TOKEN });
+    const octokit = new Octokit({ auth: process.env.GITHUB_API_KEY });
     
     let result: ListItem[] = [];
 

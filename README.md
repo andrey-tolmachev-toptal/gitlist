@@ -1,14 +1,21 @@
 In the project directory:
 
+1.
+Add .env.local file with the variable 
+GITHUB_API_KEY = 'YOUR_GITHUB_API_TOKEN'
+
+2.
 Install dependencies with:
 **yarn install**
 
+3.
 Runs the app in the development mode:
 **yarn start**
 
+4.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-If required update API access token in **data/api.ts**
+
 
 Notes:
 
