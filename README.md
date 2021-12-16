@@ -1,8 +1,8 @@
 In the project directory:
 
 1.
-Add .env.local file with the variable 
-GITHUB_API_KEY = 'YOUR_GITHUB_API_TOKEN'
+Add .env file with the variable
+REACT_APP_GITHUB_API_KEY = 'YOUR_GITHUB_API_TOKEN'
 
 2.
 Install dependencies with:
