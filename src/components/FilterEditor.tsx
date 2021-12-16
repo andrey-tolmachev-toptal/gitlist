@@ -54,7 +54,7 @@ const FilterEditor: React.FC<FilterEditorProps> = props => {
 
         if (typeof newFilter.minIssues === 'number' && typeof newFilter.maxIssues === 'number'
             && newFilter.minIssues > newFilter.maxIssues) {
-            setError('Max issues value can not be larger than min value');
+            setError('Min issues value can not be larger than max value');
 
             return;
         }
