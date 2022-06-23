@@ -86,8 +86,6 @@ module.exports = {
       'unix'
     ],
 
-    'no-console': 2,
-
     'no-confusing-arrow': [
       'error',
       { 'allowParens': true }

@@ -1,6 +1,5 @@
-import { type } from 'os';
 import React, { useEffect, useState } from 'react';
-import { Form,FormGroup, FormLabel } from 'react-bootstrap';
+import { Form, FormGroup } from 'react-bootstrap';
 import styled from 'styled-components';
 
 import { Filter } from '../data/types';

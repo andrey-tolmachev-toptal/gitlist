@@ -119,7 +119,7 @@ const ReposList: React.FC<ReposListProps> = props => {
                 </tbody>
             </Table>
             <ReposPagination totalCount={ filteredItems.length }
-                page={ page }
+                page={ currentPage }
                 onSelect={ setPage }
             />
         </div>);
